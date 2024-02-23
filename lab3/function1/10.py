@@ -17,3 +17,19 @@ l = input()
 elements = l.split()
 new_list = unique_elements(elements)
 print(new_list)
+
+
+
+def unique_elements(ilist):
+    
+    unique_list = []
+   
+    for item in ilist:
+        if item not in unique_list:
+            unique_list.append(item)
+    
+    return unique_list
+
+
+ilist = input()
+print(unique_elements(ilist))
