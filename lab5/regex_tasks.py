@@ -105,6 +105,13 @@ def task9():
 
     print(re.sub(r'([A-Z])', lambda s: ' '+s.group(1), text).lstrip())
 
+def task9_1(text):
+    pattern = r'([a-z])([A-Z])'
+    return re.sub(pattern, r'\1 \2', text)
+
+
+print(task9_1('pyThon'))        
+
 def task10():
     '''
     Write a Python program to convert a given camel case string to snake case.
