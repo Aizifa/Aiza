@@ -110,7 +110,8 @@ def task9_1(text):
     return re.sub(pattern, r'\1 \2', text)
 
 
-print(task9_1('pyThon'))        
+print(task9_1('pyThon'))   
+     
 
 def task10():
     '''
