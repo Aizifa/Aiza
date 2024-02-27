@@ -93,7 +93,7 @@ def task8():
 
 
     print(re.sub(r'([A-Z])', lambda s: ' '+s.group(1), text).lstrip())
-
+ 
 
 def task9():
     '''
