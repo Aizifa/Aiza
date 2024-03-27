@@ -14,7 +14,7 @@ image = pygame.image.load('mickeyclock.jpeg')
 image = pygame.transform.scale(image, (400, 300))
 
 
-music_directory = "/Users/alishermutaliyev/Desktop/testrep1/Aiza/lab7/player"
+music_directory = "/Users/aizifafazylbaeva/pp2/lab7/player"
 os.chdir(music_directory)
 
 music = [file for file in os.listdir() if file.endswith(".mp3")]
